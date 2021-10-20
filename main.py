@@ -6,13 +6,10 @@ from app import app
 from tabs.frequencia import frequencia_layout
 from tabs.cloud_words import cloud_words_layout
 from tabs.msg_table import datatable_layout
-import webbrowser
-
-
-webbrowser.open("http://127.0.0.1:8050/")
 
 
 #analy = Analytics()
+server = app.server
 
 # our app's Tabs *********************************************************
 app_tabs = html.Div(
